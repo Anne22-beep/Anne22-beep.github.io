@@ -1,0 +1,111 @@
+/* Colour Palette
+-----------------
+phthalo-blue: #270B85;
+capri: #3ac2fcff;
+carolina-blue: #26a0d3ff;
+xanthic: #ecef34ff;
+celadon-blue: #27799cff;
+almost-black: #1d1d1;
+ */
+
+ /* Fonts
+ --------
+'Raleway', sans-serif;
+H1: 'Roboto', sans-serif;
+
+/*Global
+------------*/
+/* @font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf),
+    url(../fonts/Raleway-VariableFont_wght.ttf)
+} */
+
+body{
+    color: #1d1d1f;
+    background-color:#3ac2fcff;
+    margin:0;
+    padding:0;
+    font-family: 'Raleway' ,sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+h1,h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400px;
+    margin:0;
+}
+
+h1{
+    font-size:40px;
+    line-height: 1;
+}
+
+h2{
+    font-size:30px;
+}
+
+
+header{
+    background-color: #270B85;
+    margin:0;
+    padding:0;
+}
+
+nav{
+    margin:0;
+    padding:0;
+}
+
+a{
+    color:#ecef34ff;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: chartreuse;
+}
+
+a:active {
+    background-color: blue
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+li{
+    margin:0;
+    padding:0;
+}
+
+/*menu 
+-------*/
+
+nav ul  {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    padding: 20px;
+}
+
+nav p{
+    margin:0;
+    padding:0;
+    color:#ecef34ff;
+}
+
+  .content-wrap   {
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 1000px;
+}
+
+
+
